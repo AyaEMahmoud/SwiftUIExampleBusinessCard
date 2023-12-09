@@ -31,7 +31,16 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 25))
                 
+                Divider()
                 
+                InfoView(imageName: "phone.fill",
+                         infoText: "+20 10 9525 3531")
+                
+                Divider()
+                
+                InfoView(imageName: "mail.fill",
+                         infoText: "ayae.mahmoud@gmail.com")
+
             }
         }
     }
